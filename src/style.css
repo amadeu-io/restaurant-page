@@ -1,0 +1,50 @@
+/* remove default */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* generic styles */
+
+html {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  background-color: rgb(46, 67, 95);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* menu */
+
+h1 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.menu-item-container {
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 120px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  font-weight: 800;
+}
+
+svg {
+  width: 50px;
+  height: auto;
+  margin-right: 40px;
+}
