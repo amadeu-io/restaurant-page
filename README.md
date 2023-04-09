@@ -9,7 +9,7 @@
 
 ### About 📖
 
-Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). A good webpack practice.
+Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). A good practice of Webpack and working with modules
 
 ### Resources Used 📚
 
