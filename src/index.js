@@ -5,18 +5,39 @@ import appetizers from "./icons/appetizers.svg";
 import lunch from "./icons/lunch.svg";
 
 let icons = [beverages, breakfast, appetizers, lunch];
+let iconsString = [
+  "Beverages",
+  "Breakfast",
+  "Appetizers & Bites",
+  "Lunch & Dessert",
+];
 
 const content = document.getElementById("content");
 
-// title
+// create title
 const h1 = document.createElement("h1");
 h1.textContent = "Bambuda Lodge Menu";
 content.appendChild(h1);
 
-console.log('sdf');
+// create menu items
+for (let i = 0; i < 4; i++) {
+  // create container
+  const itemContainer = document.createElement("div");
+  itemContainer.classList = "item-container";
 
-icons.forEach((icon) => {
-  //let imgIcon = new Image();
-  // imgIcon.src = icon;
-  // content.appendChild(imgIcon);
-});
+  // create icon
+  let itemIcon = document.createElement("img");
+  itemIcon.src = icons[i];
+
+  // create name
+  let itemName = document.createElement("div");
+  itemName.classList = "item-name";
+  itemName.textContent = iconsString[i];
+
+  // add icon & name to container
+  itemContainer.appendChild(itemIcon);
+  itemContainer.appendChild(itemName);
+
+  // add container to content
+  content.appendChild(itemContainer);
+}
