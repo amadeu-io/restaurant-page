@@ -9,7 +9,7 @@
 
 ### About 📖
 
-Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). An example of building a page with webpack.
+Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). A good webpack practice.
 
 ### Resources Used 📚
 

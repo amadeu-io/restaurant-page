@@ -8,12 +8,15 @@ let icons = [beverages, breakfast, appetizers, lunch];
 
 const content = document.getElementById("content");
 
+// title
 const h1 = document.createElement("h1");
 h1.textContent = "Bambuda Lodge Menu";
 content.appendChild(h1);
 
+console.log('sdf');
+
 icons.forEach((icon) => {
-  let imgIcon = new Image();
-  imgIcon.src = icon;
-  content.appendChild(imgIcon);
+  //let imgIcon = new Image();
+  // imgIcon.src = icon;
+  // content.appendChild(imgIcon);
 });
