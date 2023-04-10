@@ -1,0 +1,23 @@
+/* remove default */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* generic styles */
+
+html {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  background-color: rgb(95, 46, 77);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

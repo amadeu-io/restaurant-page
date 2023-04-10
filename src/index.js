@@ -1,6 +1,5 @@
-import { landingLoad } from './landingLoad.js';
+//import { landingLoad } from './landingLoad.js';
+//landingLoad();
 
-landingLoad();
-
-
+import "./styles/breakfast.css";
 
