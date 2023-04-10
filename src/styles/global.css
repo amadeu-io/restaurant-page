@@ -1,0 +1,20 @@
+/* this stylesheet only contains the styles that apply to all pages */
+
+/* remove default */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* generic styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+html {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 28px;
+  font-weight: 600;
+  background-color: rgb(46, 67, 95);
+}
