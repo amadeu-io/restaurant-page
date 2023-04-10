@@ -1,5 +1,6 @@
 // loads the landing page
 
+import "./styles/landing.css";
 import beverages from "./icons/beverages.svg";
 import breakfast from "./icons/breakfast.svg";
 import appetizers from "./icons/appetizers.svg";
