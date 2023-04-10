@@ -4,5 +4,7 @@ import "./styles/global.css";
 /* import { landingLoad } from "./landingLoad.js";
 landingLoad(); */
 
-import { breakfastLoad } from "./breakfastLoad.js";
-breakfastLoad();
+import "./styles/beverages.css";
+
+/* import { breakfastLoad } from "./breakfastLoad.js";
+breakfastLoad(); */

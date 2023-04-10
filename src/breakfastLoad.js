@@ -1,3 +1,7 @@
+// loads the HTML and CSS of breakfast
+
+import "./styles/breakfast.css";
+
 function breakfastLoad() {
   const content = document.getElementById("content");
 
