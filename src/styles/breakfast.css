@@ -1,23 +1,51 @@
-/* remove default */
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* generic styles */
-
-html {
-  font-family: "Quicksand", sans-serif;
-  color: white;
-  font-size: 28px;
-  font-weight: 600;
-  background-color: rgb(95, 46, 77);
-}
+/* generic */
 
 #content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.left,
+.right {
+  width: 50%;
+  padding: 50px;
+}
+
+/* left */
+
+.left {
+  background-color: rgb(255, 255, 255);
+  color: var(--bambuda-blue);
+}
+
+.item-container {
+  margin-top: 40px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.legend {
+  font-weight: 500;
+}
+
+/* right */
+
+.right {
+  background-color: var(--bambuda-orange);
+  color: var(--bambuda-blue);
+}
+
+.right h1 {
+  margin-top: 40px;
 }
