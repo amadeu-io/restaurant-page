@@ -1,10 +1,10 @@
 // loads the landing page
 
-import "./styles/landing.css";
-import beverages from "./icons/beverages.svg";
-import breakfast from "./icons/breakfast.svg";
-import appetizers from "./icons/appetizers.svg";
-import lunch from "./icons/lunch.svg";
+import "../styles/landing.css";
+import beverages from "../icons/beverages.svg";
+import breakfast from "../icons/breakfast.svg";
+import appetizers from "../icons/appetizers.svg";
+import lunch from "../icons/lunch.svg";
 
 function landingLoad() {
   let icons = [beverages, breakfast, appetizers, lunch];

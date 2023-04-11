@@ -1,6 +1,6 @@
 // loads the HTML and CSS of lunch
 
-import "./styles/lunch.css";
+import "../styles/lunch.css";
 
 function lunchLoad() {
   const content = document.getElementById("content");

@@ -1,6 +1,6 @@
 // loads the HTML and CSS of breakfast
 
-import "./styles/beverages.css";
+import "../styles/beverages.css";
 
 function beveragesLoad() {
   const content = document.getElementById("content");

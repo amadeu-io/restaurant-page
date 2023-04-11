@@ -1,6 +1,6 @@
 // loads the HTML and CSS of appetizers
 
-import "./styles/appetizers.css";
+import "../styles/appetizers.css";
 
 function appetizersLoad() {
   const content = document.getElementById("content");
