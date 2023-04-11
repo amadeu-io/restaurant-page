@@ -156,17 +156,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_reset_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/reset.css */ \"./src/styles/reset.css\");\n/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/global.css */ \"./src/styles/global.css\");\n/* harmony import */ var _menuLoad_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menuLoad.js */ \"./src/scripts/menuLoad.js\");\n\n\n\n\n(0,_menuLoad_js__WEBPACK_IMPORTED_MODULE_2__.menuLoad)();\n\n\n//import { beveragesLoad } from \"./beveragesLoad.js\";\n//beveragesLoad();\n\n//import { breakfastLoad } from \"./breakfastLoad.js\";\n//breakfastLoad();\n\n//import { appetizersLoad } from \"./appetizersLoad.js\";\n//appetizersLoad();\n\n//import { lunchLoad } from \"./lunchLoad.js\";\n//lunchLoad();\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_reset_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/reset.css */ \"./src/styles/reset.css\");\n/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/global.css */ \"./src/styles/global.css\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ \"./src/scripts/menu.js\");\n\n\n\n\n(0,_menu_js__WEBPACK_IMPORTED_MODULE_2__.menuLoad)();\n\n\n//import { beveragesLoad } from \"./beverages.js\";\n//beveragesLoad();\n\n//import { breakfastLoad } from \"./breakfast.js\";\n//breakfastLoad();\n\n//import { appetizersLoad } from \"./appetizers.js\";\n//appetizersLoad();\n\n//import { lunchLoad } from \"./lunch.js\";\n//lunchLoad();\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/scripts/index.js?");
 
 /***/ }),
 
-/***/ "./src/scripts/menuLoad.js":
-/*!*********************************!*\
-  !*** ./src/scripts/menuLoad.js ***!
-  \*********************************/
+/***/ "./src/scripts/menu.js":
+/*!*****************************!*\
+  !*** ./src/scripts/menu.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuLoad\": () => (/* binding */ menuLoad)\n/* harmony export */ });\n/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/menu.css */ \"./src/styles/menu.css\");\n// loads the HTML and CSS of menu\n\n\n\nfunction menuLoad() {\n  const content = document.getElementById(\"content\");\n\n  let menuHTML = `\n  <h1>&#x1F305; Bambuda Lodge Menu &#x1F305;</h1>\n  <h2>Beverages &#x1F379;</h2>\n  <h2>Breakfast &#x1F373;</h2>\n  <h2>Appetizers &amp; Poolside Bites &#x1F32E;</h2>\n  <h2>Lunch &amp; Dessert &#x1F35D;</h2>\n  `;\n\n  content.innerHTML = menuHTML;\n}\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/scripts/menuLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuLoad\": () => (/* binding */ menuLoad)\n/* harmony export */ });\n/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/menu.css */ \"./src/styles/menu.css\");\n// loads the HTML and CSS of menu\n\n\n\nfunction menuLoad() {\n  const content = document.getElementById(\"content\");\n\n  let menuHTML = `\n  <h1>&#x1F305; Bambuda Lodge Menu &#x1F305;</h1>\n  <h2>Beverages &#x1F379;</h2>\n  <h2>Breakfast &#x1F373;</h2>\n  <h2>Appetizers &amp; Poolside Bites &#x1F32E;</h2>\n  <h2>Lunch &amp; Dessert &#x1F35D;</h2>\n  `;\n\n  content.innerHTML = menuHTML;\n}\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/scripts/menu.js?");
 
 /***/ })
 
