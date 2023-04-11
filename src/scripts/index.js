@@ -1,19 +1,19 @@
 import "../styles/reset.css";
 import "../styles/global.css";
 
-import { menuLoad } from "./menuLoad.js";
+import { menuLoad } from "./menu.js";
 menuLoad();
 
 
-//import { beveragesLoad } from "./beveragesLoad.js";
+//import { beveragesLoad } from "./beverages.js";
 //beveragesLoad();
 
-//import { breakfastLoad } from "./breakfastLoad.js";
+//import { breakfastLoad } from "./breakfast.js";
 //breakfastLoad();
 
-//import { appetizersLoad } from "./appetizersLoad.js";
+//import { appetizersLoad } from "./appetizers.js";
 //appetizersLoad();
 
-//import { lunchLoad } from "./lunchLoad.js";
+//import { lunchLoad } from "./lunch.js";
 //lunchLoad();
 
