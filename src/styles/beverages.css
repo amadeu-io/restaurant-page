@@ -43,17 +43,9 @@ h3 {
   margin-top: 10px;
 }
 
-.legend {
-  font-weight: 500;
-}
-
 /* right */
 
 .right {
   background-color: white;
   color: var(--bambuda-blue);
-}
-
-.right h1 {
-  margin-top: 40px;
 }
