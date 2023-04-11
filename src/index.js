@@ -5,7 +5,14 @@ import "./styles/global.css";
 landingLoad(); */
 
 // import { beveragesLoad } from "./beveragesLoad.js";
-//beveragesLoad();
+// beveragesLoad();
 
-import { breakfastLoad } from "./breakfastLoad.js";
-breakfastLoad();
+//import { breakfastLoad } from "./breakfastLoad.js";
+//breakfastLoad();
+
+//import { appetizersLoad } from "./appetizersLoad.js";
+//appetizersLoad();
+
+import { lunchLoad } from "./lunchLoad.js";
+lunchLoad();
+

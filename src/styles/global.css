@@ -15,6 +15,8 @@
   --bambuda-blue: rgb(46, 67, 95);
   --bambuda-orange: rgb(255, 235, 212);
   --bambuda-green: rgb(211, 222, 203);
+  --bambuda-lightblue: rgb(194, 219, 229);
+  --bambuda-red: rgb(255, 225, 211);
 }
 
 html {
@@ -24,4 +26,8 @@ html {
   font-weight: 300;
   /* background-color: var(--bambuda-blue); */
   line-height: 1.4;
+}
+
+.legend {
+  font-weight: 500;
 }
