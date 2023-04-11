@@ -10,9 +10,9 @@ landingLoad(); */
 //import { breakfastLoad } from "./breakfastLoad.js";
 //breakfastLoad();
 
-//import { appetizersLoad } from "./appetizersLoad.js";
-//appetizersLoad();
+import { appetizersLoad } from "./appetizersLoad.js";
+appetizersLoad();
 
-import { lunchLoad } from "./lunchLoad.js";
-lunchLoad();
+//import { lunchLoad } from "./lunchLoad.js";
+//lunchLoad();
 
