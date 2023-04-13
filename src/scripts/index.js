@@ -1,20 +1,33 @@
 import "../styles/reset.css";
 import "../styles/global.css";
-
 import { navLoad } from "./nav.js";
-navLoad();
+import { appetizersLoad } from "./appetizers.js";
+import { beveragesLoad } from "./beverages.js";
+import { breakfastLoad } from "./breakfast.js";
+import { menuLoad } from "./menu.js";
+import { lunchLoad } from "./lunch.js";
 
-//import { menuLoad } from "./menu.js";
+navLoad();
+//beveragesLoad();
 //menuLoad();
 
-//import { beveragesLoad } from "./beverages.js";
-//beveragesLoad();
+let navItem = document.querySelectorAll(".nav-item");
 
-import { breakfastLoad } from "./breakfast.js";
-breakfastLoad();
+const loadFunctions = [
+  menuLoad,
+  beveragesLoad,
+  breakfastLoad,
+  appetizersLoad,
+  lunchLoad,
+];
 
-//import { appetizersLoad } from "./appetizers.js";
-//appetizersLoad();
+navItem.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    navItem.forEach((item) => {
+      item.classList.remove("current");
+    });
 
-//import { lunchLoad } from "./lunch.js";
-//lunchLoad();
+    loadFunctions[index]();
+    item.classList.add("current");
+  });
+});

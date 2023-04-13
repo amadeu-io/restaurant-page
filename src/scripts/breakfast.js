@@ -1,8 +1,6 @@
-// loads the HTML and CSS of breakfast
+// loads the HTML breakfast
 
-import "../styles/breakfast.css";
-
-function breakfastLoad() {
+const breakfastLoad = function () {
   const content = document.getElementById("content");
 
   let breakfastHTML = `
@@ -176,6 +174,11 @@ function breakfastLoad() {
   `;
 
   content.innerHTML = breakfastHTML;
-}
+
+  const left = document.querySelector(".left");
+  const right = document.querySelector(".right");
+  left.style.backgroundColor = "white";
+  right.style.backgroundColor = "var(--bambuda-orange)";
+};
 
 export { breakfastLoad };

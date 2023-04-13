@@ -1,8 +1,6 @@
-// loads the HTML and CSS of lunch
+// loads the HTML of lunch
 
-import "../styles/lunch.css";
-
-function lunchLoad() {
+const lunchLoad = function () {
   const content = document.getElementById("content");
 
   let lunchHTML = `
@@ -138,6 +136,11 @@ function lunchLoad() {
   `;
 
   content.innerHTML = lunchHTML;
-}
+
+  const left = document.querySelector(".left");
+  const right = document.querySelector(".right");
+  left.style.backgroundColor = "var(--bambuda-red)";
+  right.style.backgroundColor = "white";
+};
 
 export { lunchLoad };

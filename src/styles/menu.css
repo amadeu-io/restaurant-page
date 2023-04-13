@@ -1,14 +1,11 @@
-html {
+.menu {
+  height: 100%;
+
   color: white;
   background-color: var(--bambuda-blue);
 }
 
-html,
-body {
-  height: 100%;
-}
-
-#content {
+.menu {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -16,18 +13,18 @@ body {
   align-items: center;
 }
 
-h1,
-h2 {
+menu h1,
+menu h2 {
   cursor: pointer;
 }
 
-h2 {
+menu h2 {
   border: none;
   padding: none;
   margin: none;
 }
 
-h1:hover,
-h2:hover {
+menu h1:hover,
+menu h2:hover {
   color: rgb(193, 206, 255);
 }

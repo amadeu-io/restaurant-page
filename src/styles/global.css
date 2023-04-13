@@ -1,4 +1,4 @@
-/* this stylesheet contains the styles that apply to all pages */
+/* generic styles */
 
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
@@ -19,8 +19,10 @@ html {
   background-color: white;
 }
 
+html,
+body,
 #content {
-  display: flex;
+  height: 100%;
 }
 
 h1 {
@@ -41,6 +43,11 @@ h3 {
   font-weight: 500;
 }
 
+.menu,
+.beverages {
+  display: flex;
+}
+
 .left,
 .right {
   width: 50%;
@@ -57,4 +64,58 @@ h3 {
 
 .legend {
   font-weight: 500;
+}
+
+/* nav bar */
+
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.nav-item {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.nav-item:hover,
+.current {
+  font-weight: 800;
+  padding-bottom: 2px;
+  border-bottom: 2px solid;
+}
+
+/* background colors */
+
+.beverages .left {
+  background-color: var(--bambuda-green);
+}
+
+.beverages .right {
+  background-color: white;
+}
+
+/* menu */
+
+.menu {
+  height: 100%;
+  color: white;
+  background-color: var(--bambuda-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu h2 {
+  cursor: pointer;
+  border: none;
+}
+
+.menu h2:hover {
+  color: rgb(193, 206, 255);
 }

@@ -1,9 +1,9 @@
-// loads the HTML and CSS of breakfast
+// loads the HTML of breakfast
 
-import "../styles/beverages.css";
-
-function beveragesLoad() {
+const beveragesLoad = function () {
+  // remove previous content
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   let beveragesHTML = `
   <div class="left">
@@ -224,7 +224,12 @@ function beveragesLoad() {
   </div>
   `;
 
-  content.innerHTML = beveragesHTML;
-}
+  // create beverages div & append HTML content
+  const beverages = document.createElement("div");
+  beverages.classList = "beverages";
+  beverages.innerHTML = beveragesHTML;
+
+  content.appendChild(beverages);
+};
 
 export { beveragesLoad };

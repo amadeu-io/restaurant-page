@@ -1,8 +1,6 @@
-// loads the HTML and CSS of appetizers
+// loads the HTML & CSS of appetizers
 
-import "../styles/appetizers.css";
-
-function appetizersLoad() {
+const appetizersLoad = function () {
   const content = document.getElementById("content");
 
   let appetizersHTML = `
@@ -112,6 +110,11 @@ function appetizersLoad() {
 `;
 
   content.innerHTML = appetizersHTML;
-}
+
+  const left = document.querySelector(".left");
+  const right = document.querySelector(".right");
+  left.style.backgroundColor = "var(--bambuda-lightblue)";
+  right.style.backgroundColor = "white";
+};
 
 export { appetizersLoad };

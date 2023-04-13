@@ -1,9 +1,9 @@
-// loads the HTML and CSS of menu
+// loads the HTML of menu
 
-import "../styles/menu.css";
-
-function menuLoad() {
+const menuLoad = function () {
+  // remove previous content
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   let menuHTML = `
   <h1>&#x1F305; Bambuda Lodge Menu &#x1F305;</h1>
@@ -13,7 +13,12 @@ function menuLoad() {
   <h2>Lunch &amp; Dessert &#x1F35D;</h2>
   `;
 
-  content.innerHTML = menuHTML;
-}
+  // create menu div & append HTML content
+  const menu = document.createElement("div");
+  menu.classList = "menu";
+  menu.innerHTML = menuHTML;
+
+  content.appendChild(menu);
+};
 
 export { menuLoad };
