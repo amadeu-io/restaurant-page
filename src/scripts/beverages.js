@@ -230,6 +230,10 @@ const beveragesLoad = function () {
   beverages.innerHTML = beveragesHTML;
 
   content.appendChild(beverages);
+
+  // navbar feedback
+  const navBeverages = document.getElementById("beverages");
+  navBeverages.classList.add("current");
 };
 
 export { beveragesLoad };

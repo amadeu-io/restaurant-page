@@ -1,7 +1,9 @@
 // loads the HTML of lunch
 
 const lunchLoad = function () {
+  // remove previous content
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   let lunchHTML = `
   <div class="left">
@@ -135,12 +137,17 @@ const lunchLoad = function () {
   </div>
   `;
 
-  content.innerHTML = lunchHTML;
+  // create lunch div & append HTML content
+  const lunch = document.createElement("div");
+  lunch.classList = "lunch";
+  lunch.innerHTML = lunchHTML;
 
-  const left = document.querySelector(".left");
-  const right = document.querySelector(".right");
-  left.style.backgroundColor = "var(--bambuda-red)";
-  right.style.backgroundColor = "white";
+  content.appendChild(lunch);
+
+  // navbar feedback
+  const navLunch = document.getElementById("lunch");
+  navLunch.classList.add("current");
+
 };
 
 export { lunchLoad };

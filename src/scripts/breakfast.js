@@ -1,7 +1,9 @@
 // loads the HTML breakfast
 
 const breakfastLoad = function () {
+  // remove previous content
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   let breakfastHTML = `
   <div class="left">
@@ -173,12 +175,16 @@ const breakfastLoad = function () {
   </div>
   `;
 
-  content.innerHTML = breakfastHTML;
+  // create breakfast div & append HTML content
+  const breakfast = document.createElement("div");
+  breakfast.classList = "breakfast";
+  breakfast.innerHTML = breakfastHTML;
 
-  const left = document.querySelector(".left");
-  const right = document.querySelector(".right");
-  left.style.backgroundColor = "white";
-  right.style.backgroundColor = "var(--bambuda-orange)";
+  content.appendChild(breakfast);
+
+  // navbar feedback
+  const navBreakfast = document.getElementById("breakfast");
+  navBreakfast.classList.add("current");
 };
 
 export { breakfastLoad };

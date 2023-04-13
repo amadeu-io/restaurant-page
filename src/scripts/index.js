@@ -8,10 +8,27 @@ import { menuLoad } from "./menu.js";
 import { lunchLoad } from "./lunch.js";
 
 navLoad();
-//beveragesLoad();
-//menuLoad();
+menuLoad();
 
 let navItem = document.querySelectorAll(".nav-item");
+
+// make menu items clickable
+let menuItem = document.querySelectorAll("h2");
+menuItem.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    // remove navbar highlighted item
+    navItem.forEach((item) => {
+      item.classList.remove("current");
+    });
+
+    // show navbar
+    const nav = document.querySelector(".nav");
+    nav.style.display = "flex";
+
+    // load the clicked page
+    loadFunctions[index + 1]();
+  });
+});
 
 const loadFunctions = [
   menuLoad,
@@ -23,11 +40,33 @@ const loadFunctions = [
 
 navItem.forEach((item, index) => {
   item.addEventListener("click", () => {
+    // remove navbar highlighted item
     navItem.forEach((item) => {
       item.classList.remove("current");
     });
 
+    // load the clicked page
     loadFunctions[index]();
-    item.classList.add("current");
+
+    // menu has been clicked
+    if (index === 0) {
+      // make menu items clickable
+      let menuItem = document.querySelectorAll("h2");
+      menuItem.forEach((item, index) => {
+        item.addEventListener("click", () => {
+          // remove navbar highlighted item
+          navItem.forEach((item) => {
+            item.classList.remove("current");
+          });
+
+          // show navbar
+          const nav = document.querySelector(".nav");
+          nav.style.display = "flex";
+
+          // load the clicked page
+          loadFunctions[index + 1]();
+        });
+      });
+    }
   });
 });

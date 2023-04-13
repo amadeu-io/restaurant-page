@@ -1,7 +1,9 @@
 // loads the HTML & CSS of appetizers
 
 const appetizersLoad = function () {
+  // remove previous content
   const content = document.getElementById("content");
+  content.innerHTML = "";
 
   let appetizersHTML = `
   <div class="left">
@@ -109,12 +111,16 @@ const appetizersLoad = function () {
   </div>
 `;
 
-  content.innerHTML = appetizersHTML;
+  // create appetizers div & append HTML content
+  const appetizers = document.createElement("div");
+  appetizers.classList = "appetizers";
+  appetizers.innerHTML = appetizersHTML;
 
-  const left = document.querySelector(".left");
-  const right = document.querySelector(".right");
-  left.style.backgroundColor = "var(--bambuda-lightblue)";
-  right.style.backgroundColor = "white";
+  content.appendChild(appetizers);
+
+  // navbar feedback
+  const navAppetizers = document.getElementById("appetizers");
+  navAppetizers.classList.add("current");
 };
 
 export { appetizersLoad };

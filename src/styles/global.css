@@ -44,7 +44,10 @@ h3 {
 }
 
 .menu,
-.beverages {
+.beverages,
+.breakfast,
+.appetizers,
+.lunch {
   display: flex;
 }
 
@@ -96,6 +99,30 @@ h3 {
 }
 
 .beverages .right {
+  background-color: white;
+}
+
+.breakfast .left {
+  background-color: white;
+}
+
+.breakfast .right {
+  background-color: var(--bambuda-orange);
+}
+
+.appetizers .left {
+  background-color: var(--bambuda-lightblue);
+}
+
+.appetizers .right {
+  background-color: white;
+}
+
+.lunch .left {
+  background-color: var(--bambuda-red);
+}
+
+.lunch .right {
   background-color: white;
 }
 
