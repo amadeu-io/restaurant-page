@@ -2,7 +2,6 @@
 
 const breakfastLoad = function () {
   // remove previous content
-  const content = document.getElementById("content");
   content.innerHTML = "";
 
   let breakfastHTML = `

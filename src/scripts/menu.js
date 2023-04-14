@@ -6,7 +6,6 @@ const menuLoad = function () {
   nav.style.display = "none";
 
   // remove previous content
-  const content = document.getElementById("content");
   content.innerHTML = "";
 
   let menuHTML = `
@@ -23,10 +22,6 @@ const menuLoad = function () {
   menu.innerHTML = menuHTML;
 
   content.appendChild(menu);
-
-  // navbar feedback
-  //const navMenu = document.getElementById("menu");
-  //navMenu.classList.add("current");
 };
 
 export { menuLoad };

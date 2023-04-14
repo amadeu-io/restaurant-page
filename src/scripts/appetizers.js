@@ -2,7 +2,6 @@
 
 const appetizersLoad = function () {
   // remove previous content
-  const content = document.getElementById("content");
   content.innerHTML = "";
 
   let appetizersHTML = `

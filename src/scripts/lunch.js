@@ -2,7 +2,6 @@
 
 const lunchLoad = function () {
   // remove previous content
-  const content = document.getElementById("content");
   content.innerHTML = "";
 
   let lunchHTML = `
@@ -147,7 +146,6 @@ const lunchLoad = function () {
   // navbar feedback
   const navLunch = document.getElementById("lunch");
   navLunch.classList.add("current");
-
 };
 
 export { lunchLoad };
