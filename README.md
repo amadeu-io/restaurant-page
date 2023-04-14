@@ -1,10 +1,10 @@
 # Restaurant Page 🍔
 
 <p align="center">
-  <img src="./screenshots/menu.png" width="650px" alt="screenshot">
+  <img src="screenshots/menu.png" width="650px" alt="screenshot">
 </p>
 <p align="center">
-  <img src="./screenshots/breakfast.png" width="650px" alt="screenshot">
+  <img src="screenshots/breakfast.png" width="650px" alt="screenshot">
 </p>
 <h2 align="center">
   <a href="https://nightrunner4.github.io/restaurant-page">👉 Demo</a>
@@ -12,7 +12,7 @@
 
 ### About 📖
 
-Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). The challenge was to create a restaurant menu using only JS, CSS and Webpack. The menu is a replica for [Bambuda Lodge] (https://bambuda.com/lodge/)
+Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). The challenge was to create a restaurant menu using only JS, CSS and Webpack. The menu is a replica of [Bambuda Lodge](https://bambuda.com/lodge/)
 
 ### Resources Used 📚
 
