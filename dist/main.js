@@ -196,7 +196,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"navLoad\": () => (/* binding */ navLoad)\n/* harmony export */ });\n// loads the HTML and CSS of nav\n\nconst navLoad = function() {\n  const nav = document.querySelector(\".nav\");\n\n  let navHTML = `\n  <div class=\"nav-item\">Menu</div>\n  <div class=\"nav-item\">Beverages &#x1F379;</div>\n  <div class=\"nav-item\">Breakfast &#x1F373;</div>\n  <div class=\"nav-item\">Appetizers &amp; Bites &#x1F32E;</div>\n  <div class=\"nav-item\">Lunch &amp; Dessert &#x1F35D;</div>\n  `;\n\n  nav.innerHTML = navHTML;\n}\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/scripts/nav.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"navLoad\": () => (/* binding */ navLoad)\n/* harmony export */ });\n// loads the HTML and CSS of nav\n\nconst navLoad = function() {\n  const nav = document.querySelector(\".nav\");\n\n  let navHTML = `\n  <div class=\"nav-item\" id=\"menu\">Menu</div>\n  <div class=\"nav-item\" id=\"beverages\">&#x1F379; Beverages</div>\n  <div class=\"nav-item\" id=\"breakfast\">&#x1F373; Breakfast</div>\n  <div class=\"nav-item\" id=\"appetizers\">&#x1F32E; Appetizers &amp; Bites</div>\n  <div class=\"nav-item\" id=\"lunch\">&#x1F35D; Lunch &amp; Dessert</div>\n  `;\n\n  nav.innerHTML = navHTML;\n}\n\n\n\n\n//# sourceURL=webpack://restaurant-page/./src/scripts/nav.js?");
 
 /***/ })
 
