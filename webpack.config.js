@@ -30,5 +30,20 @@ module.exports = {
       filename: "appetizers.html",
       chunks: ["appetizers"],
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/html/beverages.html",
+      filename: "beverages.html",
+      chunks: ["beverages"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/html/breakfast.html",
+      filename: "breakfast.html",
+      chunks: ["breakfast"],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/html/lunch.html",
+      filename: "lunch.html",
+      chunks: ["lunch"],
+    }),
   ],
 };
