@@ -53,9 +53,7 @@ navItem.forEach((item, index) => {
     // load the clicked page
     loadFunctions[index]();
 
-    // if menu has been clicked
-    if (!0) {
-      makeMenuLinksClickable();
-    }
+    // if menu is clicked
+    if (!0) makeMenuLinksClickable();
   });
 });
