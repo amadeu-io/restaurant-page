@@ -20,8 +20,7 @@ html {
 }
 
 html,
-body,
-#content {
+body {
   height: 100%;
 }
 
@@ -43,7 +42,7 @@ h3 {
   font-weight: 500;
 }
 
-#content {
+.content {
   display: flex;
 }
 

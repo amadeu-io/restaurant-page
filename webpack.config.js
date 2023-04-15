@@ -5,6 +5,9 @@ module.exports = {
   entry: {
     menu: "./src/js/menu.js",
     appetizers: "./src/js/appetizers.js",
+    beverages: "./src/js/beverages.js",
+    breakfast: "./src/js/breakfast.js",
+    lunch: "./src/js/lunch.js",
   },
   output: {
     filename: "[name].[contenthash].js",
