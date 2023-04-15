@@ -43,11 +43,7 @@ h3 {
   font-weight: 500;
 }
 
-.menu,
-.beverages,
-.breakfast,
-.appetizers,
-.lunch {
+#content {
   display: flex;
 }
 
