@@ -14,7 +14,7 @@
 
 Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). The challenge was to create a restaurant menu using only JS, CSS and Webpack. The menu is a replica of [Bambuda Lodge](https://bambuda.com/lodge/)
 
-In the '**HtmlWebpackPlugin**' branch, HTML is used for comparison
+The **HtmlWebpackPlugin** branch uses HTML for comparison
 
 ### Resources Used 📚
 
