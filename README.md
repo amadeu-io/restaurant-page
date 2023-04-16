@@ -12,7 +12,9 @@
 
 ### About 📖
 
-Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). The challenge was to create a restaurant menu using only JS, CSS and Webpack. In the 'HtmlWebpackPlugin' branch, the same thing is achieved with the use of HTML. The menu is a replica of [Bambuda Lodge](https://bambuda.com/lodge/).
+Third project of the JavaScript chapter in [The Odin Project](https://www.theodinproject.com). The challenge was to create a restaurant menu using only JS, CSS and Webpack. The menu is a replica of [Bambuda Lodge](https://bambuda.com/lodge/)
+
+In the 'HtmlWebpackPlugin' branch, the website is built with the use of HTML to show the difference
 
 ### Resources Used 📚
 
