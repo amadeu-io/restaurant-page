@@ -4,23 +4,6 @@ import "../css/reset.css";
 import "../css/global.css";
 import "../css/nav.css";
 
-// add navbar highlighted item
-function addNavHighlight() {
-  const navItem = document.querySelectorAll(".nav-item");
-  navItem.forEach((item) => {
-    item.addEventLister("click", () => {
-      console.log("sd");
-    });
-  });
-}
-
-// remove navbar highlighted item
-function removeNavHighlight() {
-  navItem.forEach((item) => {
-    item.classList.remove("current");
-  });
-}
-
 const navLoad = function () {
   const nav = document.querySelector(".nav");
 
