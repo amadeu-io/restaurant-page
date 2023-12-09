@@ -7,7 +7,7 @@
   <img src="screenshots/breakfast.png" width="650px" alt="screenshot">
 </p>
 <h2 align="center">
-  <a href="https://nightrunner4.github.io/restaurant-page">👉 Demo</a>
+  <a href="https://amadeu-io.github.io/restaurant-page">👉 Demo</a>
 </h2>
 
 ### About 📖
